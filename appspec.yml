@@ -9,6 +9,7 @@ permissions:
     group: ubuntu
     mode: 755
 hooks:
+  ApplicationStop: []
   ApplicationStart:
     - location: deploy.sh
       timeout: 300
