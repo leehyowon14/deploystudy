@@ -11,10 +11,10 @@ permissions:
 
 # 환경 변수 설정
 env:
-  S3_BUCKET_NAME: deploystudy-github-action
+  S3_BUCKET_NAME: likelion-assignment
   ZIP_FILE_NAME: deploy-package.zip
   APPLICATION_NAME: deploystudy  # AWS CodeDeploy 애플리케이션 이름
-  DEPLOYMENT_GROUP_NAME: deploystudydeploygroup  # AWS CodeDeploy 배포 그룹 이름
+  DEPLOYMENT_GROUP_NAME: deploy-group  # AWS CodeDeploy 배포 그룹 이름
 
 jobs:
   build:
